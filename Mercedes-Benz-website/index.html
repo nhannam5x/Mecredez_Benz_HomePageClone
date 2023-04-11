@@ -1,0 +1,2846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mercedes-Benz website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-xl">
+        <a class="navbar-brand" href="#">
+          <img src="./img/Mercedes-Benz Star.png" alt="" />
+          <img class="logo" src="./img/Mercedes-Benz.png" alt="" />
+        </a>
+        <div class="provider">
+          <a
+            class="nav-link"
+            href="#"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            ><i class="fa fa-info"></i>
+            <p>Provider/Privacy Statement</p></a
+          >
+          <a class="nav-link language" href="#">Deutsch</a>
+        </div>
+        <!--Modal-->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div
+                  class="nav nav-tabs modal-title"
+                  id="nav-tab"
+                  role="tablist"
+                >
+                  <a
+                    class="nav-link active"
+                    id="nav-provider-tab"
+                    data-toggle="tab"
+                    href="#nav-provider"
+                    role="tab"
+                    aria-controls="nav-home"
+                    aria-selected="true"
+                    >Provider</a
+                  >
+                  <a
+                    class="nav-link"
+                    id="nav-notice-tab"
+                    data-toggle="tab"
+                    href="#nav-notice"
+                    role="tab"
+                    aria-controls="nav-profile"
+                    aria-selected="false"
+                    >Legal Notice</a
+                  >
+                  <a
+                    class="nav-link"
+                    id="nav-cookies-tab"
+                    data-toggle="tab"
+                    href="#nav-cookies"
+                    role="tab"
+                    aria-controls="nav-contact"
+                    aria-selected="false"
+                    >Cookies</a
+                  >
+                  <a
+                    class="nav-link"
+                    id="nav-privacy-tab"
+                    data-toggle="tab"
+                    href="#nav-privacy"
+                    role="tab"
+                    aria-controls="nav-contact"
+                    aria-selected="false"
+                    >Privacy</a
+                  >
+                </div>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="tab-content" id="nav-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="nav-provider"
+                    role="tabpanel"
+                    aria-labelledby="nav-provider-tab"
+                  >
+                    <h5>Mercedes-Benz AG</h5>
+                    <p>
+                      Mercedesstraße 120<br />
+                      D-70372 Stuttgart<br />
+                      Deutschland<br /><br />
+                      Phone: +49 7 11 17-0<br />
+                      E-Mail: <a href="">dialog.mb@daimler.com</a><br /><br />
+                      Represented by the Board of Management:<br /><br />
+                      Ola Källenius (Vorsitzender), Jörg Burzer, Renata Jungo
+                      Brüngger, Sabine Kohleisen, Harald Wilhelm, Markus
+                      Schäfer, Britta Seeger, Hubertus Troska<br /><br />
+                      Chairman of the Supervisory Board: Bernd Pischetsrieder<br /><br />
+                      Court of Registry: Stuttgart; commercial register no.
+                      762873<br /><br />
+                      VAT ID: DE321281763
+                    </p>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="nav-notice"
+                    role="tabpanel"
+                    aria-labelledby="nav-notice-tab"
+                  >
+                    <h5>Copyrights</h5>
+                    <p>
+                      Copyright 2003-2020 Mercedes-Benz AG. All rights reserved.
+                      All text, images, graphics, sound files, video files and
+                      animation files and their arrangement are subject to
+                      copyright and other intellectual property laws. They may
+                      not be copied, either for commercial purposes or for
+                      redistribution, nor may they be modified and used on other
+                      websites. Some Daimler AG webpages also include material
+                      that is subject to the copyright of those parties who have
+                      made such material available.
+                    </p>
+                    <h5>Products and prices</h5>
+                    <p>
+                      Some products and services may have changed since
+                      individual pages on this website were last edited. The
+                      manufacturer reserves the right to make changes to the
+                      design, form, color and specification during the delivery
+                      period, provided these changes or variations can be deemed
+                      reasonable for the customer, while taking into account the
+                      interests of Daimler AG. The illustrations may show
+                      accessories, optional equipment or other features which
+                      are not part of the standard specification. Colors may
+                      differ slightly from those depicted, for technical
+                      reasons. Some pages may also feature models and services
+                      which are not available in individual countries.
+                      Statements regarding legislative, fiscal or other legal
+                      regulations and the implications of these are valid only
+                      for the Federal Republic of Germany. Subject to any
+                      contrary provision in the terms and conditions of sale or
+                      delivery, the prices valid on the date of delivery shall
+                      apply. For our dealers, the prices are to be regarded as
+                      the recommended retail price. Please contact a
+                      company-owned sales and service outlet or an authorized
+                      dealer to find out current prices.
+                    </p>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="nav-cookies"
+                    role="tabpanel"
+                    aria-labelledby="nav-cookies-tab"
+                  >
+                    <h5>Our Mercedes-Benz Cookie Configurator.</h5>
+                    <p>
+                      We (Mercedes-Benz AG) want to ensure optimum use of our
+                      website for you and also to continually improve our
+                      website. We can also show you use-based content and
+                      advertising, and to this end we work with selected
+                      partners (incl. Google, Facebook, Salesforce). You also
+                      receive advertising on other websites through these
+                      partners. You can revoke your voluntary consent at any
+                      time. You can find further information and setting options
+                      under "Settings" and in our data protection information.
+                    </p>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="nav-privacy"
+                    role="tabpanel"
+                    aria-labelledby="nav-privacy-tab"
+                  >
+                    <p>
+                      This is the International website of Mercedes-Benz AG.<br />
+                      Visitors from the U.S., please visit our U.S. website
+                      <a href="">www.mbusa.com.</a>
+                    </p>
+                    <h5>
+                      The party responsible within the meaning of the General
+                      Data Protection Regulation (GDPR) is:
+                    </h5>
+                    <p>
+                      Mercedes-Benz AG (“We”)<br /><br />
+                      Mercedesstrasse 120<br />
+                      D-70372 Stuttgart<br />
+                      Germany<br /><br />
+                      Email:
+                      <a href="">dialog.mb@daimler.com</a>
+                    </p>
+                    <h5>Data protection officer:</h5>
+                    <p>
+                      Daimler AG Chief Officer Corporate Data Protection<br />
+                      HPC E600<br />
+                      D-70546 Stuttgart<br />
+                      Germany<br />
+                      Email: <a href="">data.protection@daimler.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars border p-3 rounded"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#">Company</a>
+            <a
+              class="nav-link"
+              data-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+              >Vehicles</a
+            >
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="0"
+                      class="active"
+                      style="background-color: #363636"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="1"
+                      style="background-color: #363636"
+                    ></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active carrousel">
+                      <div class="list">
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-overview.webp" alt="" />
+                              <h5>Overview</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-a.webp" alt="" />
+                              <h5>A-Class</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-b.webp" alt="" />
+                              <h5>B-Class</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-c-w206.webp" alt="" />
+                              <h5>C-Class</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-cla.webp" alt="" />
+                              <h5>CLA</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-cls-fl.webp" alt="" />
+                              <h5>CLS</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-e.webp" alt="" />
+                              <h5>E-Class</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-eqa.webp" alt="" />
+                              <h5>EQA</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-eqb.webp" alt="" />
+                              <h5>EQB</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-eqc.webp" alt="" />
+                              <h5>EQC</h5></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item carrousel">
+                      <div class="list">
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-eqe-2.webp" alt="" />
+                              <h5>EQE</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-eqs.webp" alt="" />
+                              <h5>EQS</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-eqv.webp" alt="" />
+                              <h5>EQV</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-g.webp" alt="" />
+                              <h5>G-Class</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-gla.webp" alt="" />
+                              <h5>GLA</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img
+                                src="./img/190607_GLB_Fahrzeuguebersicht.webp"
+                                alt=""
+                              />
+                              <h5>GLB</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/GLC-Overviwe.webp" alt="" />
+                              <h5>GLC</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-e.webp" alt="" />
+                              <h5>GLE</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-gls.webp" alt="" />
+                              <h5>GLS</h5></a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="content">
+                            <a href=""
+                              ><img src="./img/car-s.webp" alt="" />
+                              <h5>S-Class</h5></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-target="#carouselExampleIndicators"
+                    data-slide="prev"
+                    style="padding-top: 360px"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                      style="background-color: #363636; padding: 15px"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-target="#carouselExampleIndicators"
+                    data-slide="next"
+                    style="padding-top: 350px"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                      style="background-color: #363636; padding: 15px"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a class="nav-link" href="#">Design</a>
+            <a class="nav-link" href="#">Innovation</a>
+            <a class="nav-link" href="#">Museum & History</a>
+            <a class="nav-link" href="#">Sports</a>
+            <a class="nav-link" href="#">Events</a>
+            <a class="nav-link" href="#">Lifestyle</a>
+            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/mercedes-benz-vision-eqxx-2022-3400x1440.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="slide1 wow animate__animated animate__fadeInDownBig" data-wow-duration="0.5s" data-wow-delay="0.5s">
+              <a href="">
+                <h1>The VISION EQXX.</h1>
+                <span class="wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="1s">More about the VISION EQXX</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/mercedes-benz-the-all-electric-eqe-2021-v295-3400x1440.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="slide1 wow animate__animated animate__fadeInDownBig" data-wow-duration="0.5s" data-wow-delay="0.5s">
+              <a href="">
+                <h1>The EQE.</h1>
+                <span class="wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="1s">Learn more about the EQE</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/eqg-3400x1440.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="slide1 wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+              <a href="">
+                <h1>The Concept EQG.</h1>
+                <span class="wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="1s">Learn more about the Concept EQG</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/maybach-3400x1440.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="slide1 slide4 wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+              <a href="">
+                <h1>The Concept Mercedes-Maybach EQS.</h1>
+                <span class="wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="1s">Learn more about the Concept Mercedes-Maybach EQS</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/01-mercedes-benz-iaa-mobility-2021-3400x1440.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="slide1 wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+              <a href="">
+                <h1>IAA MOBILITY 2021.</h1>
+                <span class="wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="1s">Learn more</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="./img/mercedes-benz-eqs-v297-homepage-3400x1440-03-2021.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="slide1 wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+              <a href="">
+                <h1>The new EQS. This is for you, world.</h1>
+                <span class="wow animate__animated animate__fadeInDownBig"  data-wow-duration="0.5s" data-wow-delay="1s">Learn more about the EQS</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleControls"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleControls"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="search">
+      <input type="text" placeholder="I am looking for..." />
+      <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+    </section>
+
+    <section class="event">
+      <header
+        class="event-header text-center wow animate__animated animate__fadeInUp"
+      >
+        <div class="container">
+          <div class="title">
+            <h1>Welcome to the Mercedes-Benz international website.</h1>
+            <p>
+              Exclusive reports and current films: experience a broad range of
+              topics from the<br />
+              fascinating world of Mercedes-Benz. To find out about offers in
+              your location, please<br />
+              go to the local Mercedes-Benz website.
+              <br />
+              <br />
+              This is the International website of Mercedes-Benz AG.<br />
+              Visitors from the U.S., please visit our U.S.
+              <a href="#">website www.mbusa.com</a>.
+            </p>
+            <span><a href="#">Bring me to my local website</a></span>
+          </div>
+          <div class="box-item">
+            <div class="box">
+              <img src="./img/museum-channel-tile.webp" alt="" />
+              <div class="line"></div>
+              <!--</a>-->
+            </div>
+            <div class="box">
+              <img src="./img/me-channel-tile_new.webp" alt="" />
+              <div class="line"></div>
+              <!--</a>-->
+            </div>
+            <div class="box">
+              <img src="./img/she-channel-tile.webp" alt="" />
+              <div class="line"></div>
+              <!--</a>-->
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="event-main wow animate__animated animate__fadeInUp">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" data-toggle="pill" href="#new" role="tab"
+              ><i class="fa fa-newspaper"></i> New</a
+            >
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-toggle="pill" href="#popular" role="tab"
+              ><i class="fa fa-star"></i> Popular</a
+            >
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-toggle="pill" href="#video" role="tab"
+              ><i class="fa fa-play"></i> Video</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="new" role="tabpanel">
+            <div class="list">
+              <div class="item item1">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-lifestyle-fashion-mercedes-benz-collaborates-with-floral-innovators-2540x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz collaborates with floral innovators</h1>
+                      <p>
+                        Mercedes-Benz and emerging floral artists Sage Flowers
+                        created botanical sculptures inspired by Mercedes-Be...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/Mercedes-Benz-EQ-Formula_E_Team_santiago_teserjpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-EQ Formula E Team</h1>
+                      <p>
+                        Welcome to the Mercedes-EQ Formula E Team. Discover all
+                        about racing and our drive for lifestyle, sustainab...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item3">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercede-eq-forrmula-e-team-mcloud-04jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        mCloud Technologies Joins Mercedes-EQ Formula E Team
+                      </h1>
+                      <p>
+                        mCloud joins the team as an Official Team Partner just
+                        ahead of the official opening of Season 8 of the ABB...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item4">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-vision-eqxx-2022-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>VISION EQXX: The new benchmark of efficiency.</h1>
+                      <p>
+                        The VISION EQXX sets new standards for aerodynamics and
+                        enables an electric range of over 1,000 km.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item5">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-design-the-big-small-world-of-mercedes-benz-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The big small world of Mercedes-Benz.</h1>
+                      <p>
+                        From classics to the AMG – the Mercedes-Benz model cars
+                        are true-to-the-original miniatures of their bigger...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item6">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-classic-h-number-plate-2022-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>“H” as in “Happy New Year”.</h1>
+                      <p>
+                        In 2022, fascinating young classics from Mercedes-Benz
+                        will be able to obtain the H number plate for the fi...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item7">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-stoffel-vandoorne-2022_V2jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Stoffel Vandoorne</h1>
+                      <p>
+                        Our driver Stoffel Vandoorne is part of the Mercedes-EQ
+                        Formula E Team. get to know him.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item8">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-nyck-de-vries-2022_V2jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Nyck de Vries</h1>
+                      <p>
+                        Our driver Nyck de Vries is part of the Mercedes-Benz EQ
+                        Formula E Team. Get to know him.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item9">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-nyck-de-vries-season-8-interview-v6_16-9jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        "I’m most looking forward to Vancouver and Jakarta."
+                      </h1>
+                      <p>
+                        Nyck kicked off his second season in the all-electric
+                        racing series with his first win in late February 202...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item10">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/0-mercedes-benz-festival-hyeres-Mercedes-benz-debuts-new-sustainability-prize-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz debuts new Sustainability Prize.</h1>
+                      <p>
+                        This year sees an exciting new addition to the Festival
+                        d’Hyères with the inaugural Mercedes-Benz Sustainab...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item11">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-stoffel-vandoorne-2021-16-9_V1jpeg.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>"You can always find ways to improve"</h1>
+                      <p>
+                        Stoffel will be starting his fourth season in the ABB
+                        FIA Formula E World Championship in 2021/22 and his t...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item12">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-ian-james-review-16-9jpeg.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Valencia Review with Ian James</h1>
+                      <p>
+                        Learn more about how Mercedes-EQ envisions the future of
+                        mobility, the special impact team spirit will have...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item13">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-driving-events-overview-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Driving Events.</h1>
+                      <p>
+                        The Driving Events are always a source of thrills and
+                        adventure: improve your driving skills, on and offroa...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item14">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/M184789JPG.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Motorsports</h1>
+                      <p>Mercedes-Benz Motorsports Channels</p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item15 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/Studio-Odeonsplatz-Festive-Forest-Vision-Mercedes-Maybach-6-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Studio Odeonsplatz by Mercedes-Benz.</h1>
+                      <p>
+                        Discover our unique Brand Experience Space in the very
+                        heart of Munich.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item16 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/Studio-Odeonsplatz-The-Design-Edit-EQS-450-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        The Design Edit at Studio Odeonsplatz by Mercedes-Benz.
+                      </h1>
+                      <p>
+                        Explore the cooperations with Heron Preston & Proenza
+                        Schouler.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item17 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/Studio-Odeonsplatz-New-Awakening-Cozy-Corner-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Campaigns at Studio Odeonsplatz by Mercedes-Benz.</h1>
+                      <p>
+                        Constantly changing campaigns, exclusive themed worlds
+                        and cutting-edge installations.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item18 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercede-eq-formula-e-team-valencia-test-silver-arrow02-header-16-9jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        Team lay foundations for Season 8 during Valencia
+                        testing
+                      </h1>
+                      <p>
+                        The Mercedes-EQ Formula E Team successfully completed
+                        official testing for Season 8 of the ABB FIA Formula ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item19 hidden toggle">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-me-magazine-conversations-gordon-wagener-yves-behar-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Conversations: Gorden Wagener meets Yves Béhar.</h1>
+                      <p>
+                        Yves Béhar and Gorden Wagener have shaped the world with
+                        their designs.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item20 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-me-magazine-from-the-archive-2560x1440.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>From the archive: Oskar Schlemmer.</h1>
+                      <p>
+                        The curator of the Daimler Art Collection Dr. Renate
+                        Wiehager presents a special art highlight in every is...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item21 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-vehicles-passnger-cars-vans-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz Vehicle Overview.</h1>
+                      <p>
+                        Discover the current vehicle models from Mercedes-Benz:
+                        Passenger vehicles, vans, trucks and buses.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item22 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-me-magazine-pullmann-5120x2240.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>A magical masterpiece.</h1>
+                      <p>
+                        Mercedes-Benz redefined the luxury car in 1963 with the
+                        Pullman. An hommage.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item23 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-me-magazine-100-years-of-maybach-motorcars-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>100 years of Maybach motorcars.</h1>
+                      <p>
+                        The history of Maybach has been closely tied to
+                        Mercedes-Benz. The common goal: driving luxury vehicles
+                        to ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item24 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-silver-arrow-02-season-8-id01_v2.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-EQ Silver Arrow 02</h1>
+                      <p>
+                        Performance meets design: Mercedes-EQ Silver Arrow 02 is
+                        our race car for the ABB FIA Formula E Season 8.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item25 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-formula-e-team-silver-arrow-02-season-8-id09jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        Mercedes-EQ Formula E Team facing fresh challenges in
+                        Season...
+                      </h1>
+                      <p>
+                        The Mercedes-EQ Formula E Team presented their driver
+                        line-up and updated livery design for Season 8 of the...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item26 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eqa-sk-gaming-movember-2021.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>SK Gaming runs, Mercedes-Benz doubles.</h1>
+                      <p>
+                        Under the claim "#MovingEsports towards health
+                        awareness", SK Gaming and Mercedes-Benz have joined
+                        forces f...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item27 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-classic-magazine-it-must-be-love-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>It must be love.</h1>
+                      <p>
+                        More and more young people are driving Mercedes-Benz
+                        classics. A journey through a colourful, passionate
+                        sc...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item28 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-classic-magazine-dad-route-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>On the “Dad Route”: A success story.</h1>
+                      <p>
+                        With hard work and luck, dreams can come true. Danny
+                        Lucas believed it and wrote his own success story.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item29 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-history-in-orbit-for-100-years-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>In orbit for 100 years.</h1>
+                      <p>
+                        The Mercedes star in the ring turns 100: the trademark
+                        was registered by the Daimler-Motoren-Gesellschaft i...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item30 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-fashion-mercedes-benz-collaborates-with-proenza-schouler-2560x1440.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz collaborates with Proenza Schouler.</h1>
+                      <p>
+                        Mercedes-Benz and Proenza Schouler have united on a
+                        journey of considered, responsible luxury design and
+                        cr...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item31 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>South American adventure.</h1>
+                      <p>
+                        After a year of pandemic, Kevin and Lars see their
+                        Mercedes-Benz 300 TE left behind in the jungle again.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item32 hidden toggle">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercdes-benz-service-parts-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Service & Parts.</h1>
+                      <p>
+                        Mercedes-Benz GenuineParts combine the entire expertise
+                        of Mercedes-Benz as a vehicle manufacturer.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="show-more" id="more-btn">
+                <button><i class="fa fa-angle-down"></i> Show more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="popular" role="tabpanel">
+            <div class="list">
+              <div class="item item1">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-design-uebersicht-2560x1440-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Design</h1>
+                      <p>
+                        The designers at Mercedes-Benz are reconciling tradition
+                        and modernity in designing the cars for the future...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-g-class-w463-brandhub-g-world-fullscreen-stage-3400x1400-01-2020.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>G-Class world.</h1>
+                      <p>
+                        Discover the multifaceted world of the G-Class and be
+                        inspired by the values that this exceptional off-road...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item3">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-the-all-electric-eqe-2021-v295-3400x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>EQE.</h1>
+                      <p>
+                        The new EQE. Enjoy electric driving with all your
+                        senses.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item4">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-vision-eqxx-2022-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>VISION EQXX: The new benchmark of efficiency.</h1>
+                      <p>
+                        The VISION EQXX sets new standards for aerodynamics and
+                        enables an electric range of over 1,000 km.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item5">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-vehicles-passnger-cars-vans-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz Vehicle Overview.</h1>
+                      <p>
+                        Discover the current vehicle models from Mercedes-Benz:
+                        Passenger vehicles, vans, trucks and buses.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item6">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-maybach-s-class-z223-teaser-image-2560x1440-11-2020.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new Mercedes-Maybach S-Class.</h1>
+                      <p>
+                        The brand’s hallmark combination of ultimate luxury and
+                        cutting-edge technology.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item7">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-eq-concept-eqg-teaser-2560x1440-09-2021.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Concept EQG.</h1>
+                      <p>
+                        The Concept EQG gives an outlook into the future of the
+                        G-Class. Find out more about the futuristic design ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item8">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-concept-mercedes-maybach-eqs-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Premiere of the Concept Mercedes-Maybach EQS.</h1>
+                      <p>
+                        With the Concept EQS, Mercedes-Maybach provides a
+                        preview of the luxury brand’s first fully-electric
+                        produc...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item9">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-museum-overview-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        Mercedes-Benz Museum Stuttgart – 130 years of history.
+                      </h1>
+                      <p>
+                        The Mercedes-Benz Museum is the only museum in the world
+                        that can document in a single continuous timeline ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item10">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-eqs-v297-teaser-2560x1440-03-2021.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>EQS.</h1>
+                      <p>
+                        The new all-electric EQS from Mercedes-EQ. The ultimate
+                        in luxury, in a breathtaking design.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item11">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-me-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes me.</h1>
+                      <p>
+                        Check your vehicle’s data or take a look at your
+                        contracts – this is the future of mobility with Mercedes
+                        m...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item12">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-golf-glc-x-253-2560x1440-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Sports</h1>
+                      <p>
+                        All of the current Mercedes-Benz sporting events at a
+                        glance: You can find reports about the most important...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item13">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-classic-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        Mercedes-Benz Classic: Classics, festivals and
+                        milestones.
+                      </h1>
+                      <p>
+                        Mercedes-Benz Classic: Experience milestones and enjoy
+                        emotional insights into the history of the inventor ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item14">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-maybach-gls-x167-brandhub-campaign-teaser-2560x1440-03-2020jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new Mercedes-Maybach</h1>
+                      <p>
+                        The ultimate in luxury: Discover the new
+                        Mercedes-Maybach GLS.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item15 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-innovation-vision-urbanetic-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz: Innovation.</h1>
+                      <p>
+                        As a pioneer of the automobile, we seek innovations
+                        which provide for pleasant, safe and resource-friendly
+                        ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item16 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-design-cls-coupe-c-257-sketch-2560x1440-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Vehicle design between intelligence & emotion.</h1>
+                      <p>
+                        The designers at Mercedes-Benz are reconciling tradition
+                        and modernity in designing the cars for the future...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item17 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-marco-polo-header-overview-excerpt-2560x1440.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        Sprinter and Marco Polo – the perfect companions for
+                        almost ...
+                      </h1>
+                      <p>
+                        The Marco Polo is a premium camper van. It is perfect
+                        for adventurers who want to travel in style.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item18 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz-museum-overview-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        Mercedes-Benz Museum: Opening hours, prices and address.
+                      </h1>
+                      <p>Visitor information Mercedes-Benz Museum.</p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item19 hidden toggle1">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-lifestyle-g-500-4x4c2b2-w-463-2560x1400-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Lifestyle</h1>
+                      <p>
+                        Let the fashion, lifestyle, art, adventure and culture
+                        that you will find here inspire you.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item20 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-vehicles-concept-cars-vision-avtr-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Inspired by the future: The VISION AVTR.</h1>
+                      <p>
+                        The concept car VISION AVTR shows a completely new
+                        interaction between human, machine and nature.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item21 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-vehicles-mercedes-maybach-g-650-landaulet-w-463-2560x1372-2560x1372.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new Mercedes-Maybach G 650 Landaulet.</h1>
+                      <p>
+                        The Mercedes-Maybach G 650 Landaulet is a masterpiece
+                        and surely the most exclusive form of stylish open-to...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item22 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/02-mercedes-benz-virgil-abloh-2560x1280.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz | Virgil Abloh.</h1>
+                      <p>
+                        Creative director and fashion designer Virgil Abloh
+                        creates a unique artwork from the iconic G-Class.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item23 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-passenger-cars-e-class-coupe-c-238-avantgarde-obsidian-black-metallic-2560x1440-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Passenger Cars</h1>
+                      <p>
+                        Discover the current Mercedes-Benz model range and
+                        experience automotive fascination in articles, videos &
+                        ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item24 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/FAHRZEUGE_Die_automobile_Unabhngigkeitserklrung_01-1230x740.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        M Mercedes-Benz G 63 AMG 6x6: The automotive declaration
+                        of in...
+                      </h1>
+                      <p>
+                        The G 63 AMG 6X6 embodies a perfect synthesis of
+                        uncompromising extravagance and technical perfection.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item25 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-Mercedes-Benz-Style-Lifestyle-Silver-Arrows-Marine-Motor-Yacht-ARROW460-1280x686-1280x686.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz Style: Design & Innovation</h1>
+                      <p>
+                        Mercedes-Benz Style, like Mercedes-Benz itself, is a
+                        name synonymous with design and innovation combined
+                        wi...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item26 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/Mercedes-Benz-EQ-Formula_E_Team_santiago_teserjpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-EQ Formula E Team</h1>
+                      <p>
+                        Welcome to the Mercedes-EQ Formula E Team. Discover all
+                        about racing and our drive for lifestyle, sustainab...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item27 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercedes-benz_events_titel-3-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-Benz Events.</h1>
+                      <p>
+                        Browse our large offers and numerous events in the areas
+                        of driving events, travel, sports, culture, classi...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item28 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-design-smart-fortwo-453-sketch-2560x1440-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The Design of the smart.</h1>
+                      <p>
+                        smart design: The new smart generation reflects the good
+                        balance between heart and mind, passion and ration...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item29 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/01-mercdes-benz-service-parts-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Service & Parts.</h1>
+                      <p>
+                        Mercedes-Benz GenuineParts combine the entire expertise
+                        of Mercedes-Benz as a vehicle manufacturer.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item30 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-mercedes-maybach-s-class-2021-z223-2560x1440.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new Mercedes-Maybach S-Class.</h1>
+                      <p>
+                        Experience exclusivity and individuality, elegant design
+                        and first-class standard of finish.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item31 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-g-class-w463-brandhub-manufaktur-teaser-2560x1440-06-2020.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>G manufaktur</h1>
+                      <p>
+                        With the G manufaktur's individualisation program, the
+                        choice of materials and colours is almost limitless.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item32 hidden toggle1">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-vans-sprinter-vito-citan-excerpt-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        The reliable business partner: the vans from
+                        Mercedes-Benz.
+                      </h1>
+                      <p>
+                        Mercedes-Benz provides innovative vans with reliable
+                        quality and safety: Citan, Vito and Sprinter have the
+                        ...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="show-more1" id="more-btn1">
+                <button><i class="fa fa-angle-down"></i> Show more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="video" role="tabpanel">
+            <div class="list">
+              <div class="item item1">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-eq-and-sk-gaming-launch-project-avarosa-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-EQ and SK Gaming launch Project Avarosa.</h1>
+                      <p>
+                        Mercedes-Benz has been a partner of the Esports
+                        organization SK Gaming since 2019, now they launch the
+                        Proj...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-eqa-2021-h243-presented-by-leonie-von-hase-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new EQA – Presented by Leonie von Hase.</h1>
+                      <p>
+                        Join us for a day of driving as our host Leonie von Hase
+                        takes the EQA from the city to the beautiful Rhine...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item3">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-v-class-br447-features-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The V-Class: Features.</h1>
+                      <p>
+                        The V-Class impresses with its features at first glance
+                        – and after many thousands of kilometres.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item4">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00_mercedes-benz-eqs-by-mercedes-eq-in-monaco-2021-v297_2560x1440.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The EQS on the Circuit de Monaco.</h1>
+                      <p>
+                        Join Stoffel Vandoorne on his ride in the EQS by
+                        Mercedes-EQ on the legendary Circuit de Monaco.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item5">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-eq-enthusiasts-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Mercedes-EQ Enthusiasts.</h1>
+                      <p>
+                        Dennis Heyn goes behind the scenes of Mercedes-EQ and
+                        talks to the experts behind the brand’s electric cars...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item6">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-g-class-experience-center-with-a-legend-into-off-road-terrain-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Into off-road terrain with the legend.</h1>
+                      <p>
+                        The G-Class Experience Center in Graz starts into a new
+                        season. Check it out and book your tour.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item7">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-we-are-mo-we-build-the-future-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>We are MO – We build the future.</h1>
+                      <p>
+                        At MO, we stand for passionate people, pioneering
+                        digitalisation, excellent products and responsible
+                        sustai...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item8">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-the-new-c-class-w206-2021-stay-in-your-comfort-zone-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new C-Class: Stay in your comfort zone.</h1>
+                      <p>
+                        Every day we’re told to leave our comfort zone. But now
+                        is the time to do the opposite. Relax and leave the...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item9">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-s-class-w223-2020-and-its-functions-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new S-Class and its functions.</h1>
+                      <p>
+                        The S-Class stands for legendary as well as traditional
+                        engineering. It defines the luxury segment in the a...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item10">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-gle-2020-v167-styling-and-features-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new GLE – Styling and features.</h1>
+                      <p>
+                        In this video, highlights such as the MBUX and the new
+                        suspension of the new GLE are highlighted.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item11">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-amg-inside-amg-series-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>INSIDE AMG.</h1>
+                      <p>
+                        In our new video series, INSIDE AMG, Product Manager
+                        Felix Schönhofer meets talented Mercedes-AMG experts.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item12">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-we-drive-the-city-mercedes-eq-formula-e-team-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>We Drive the City: Mercedes-EQ Formula E Team.</h1>
+                      <p>
+                        Electrifying innovation knows no bounds: with
+                        #WeDriveTheCity​, we want to inspire change for society.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item13">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-florian-ambrosius-test-drives-the-new-s-class-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new S-Class – Presented by Florian Ambrosius.</h1>
+                      <p>
+                        Have a look at how the new S-Class will redefine your
+                        concept of high-end technology and comfort.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item14">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-the-perfect-fit-your-mercedes-benz-and-mercedes-me-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        The perfect fit: Your Mercedes-Benz and Mercedes me.
+                      </h1>
+                      <p>
+                        Some things just work perfectly together. Like your
+                        Mercedes-Benz and the digital services of Mercedes me.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item15 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-three-things-you-need-to-know-about-the-new-eqs-v297-2021-by-mercedes-eq-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new EQS – All you need to know.</h1>
+                      <p>
+                        All the characteristics of the new EQS: outstanding
+                        interior design, the efficient electric drive and the
+                        e...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item16 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-g-class-schoeckl-made-to-last2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The G-Class: Made to last.</h1>
+                      <p>
+                        For over 40 years, the Schöckl in the mountains of Graz
+                        has been the ultimate test for every G-Class.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item17 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-eq-technological-curiosity-explained-eqs-vision-avtr-silver-arrow-02-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        EQS, Vision AVTR, Silver Arrow 02 – technological
+                        curiosity ...
+                      </h1>
+                      <p>
+                        Join Matt, Ian James and Christoph Starzynski to learn
+                        more about three special Mercedes-EQ vehicles.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item18 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-level-up-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>LEVEL UP!</h1>
+                      <p>
+                        TPetrol prices, taxes, insurance? Your car only becomes
+                        really expensive if it is not properly maintained an...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item19 hidden toggle2">
+                <div class="content">
+                  <a href="">
+                    <img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-eqs-v297-2021-by-mercedes-eq-the-arrival-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new EQS by Mercedes-EQ – The arrival.</h1>
+                      <p>
+                        This is for you, world. The all-electric EQS. A luxury
+                        saloon that leads the way into a new era of electric...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item20 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-c-class-wagon-2021-s206-enter-the-comfort-zone-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new C-Class Wagon: Enter the comfort zone.</h1>
+                      <p>
+                        The new C-Class is your retreat to recharge. A true
+                        comfort zone. Comfort in every single detail.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item21 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-cls-c257-2021-the-new-cls-icon-meets-progressive-design-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new CLS: Icon meets progressive design.</h1>
+                      <p>
+                        The new CLS impresses with a balance of cultivated
+                        sportiness and progressive design language.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item22 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-a-class-asmr-experience-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The A-Class: An ASMR experience.</h1>
+                      <p>
+                        Grab your headphones and hear the sounds of a car wash
+                        and the soothing sensations of the A-Class Saloon.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item23 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-c-class-sedan-enter-the-comfort-zone-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new C-Class Sedan: Enter the comfort zone.</h1>
+                      <p>
+                        The new C-Class is your retreat to recharge. A true
+                        comfort zone. Comfort in every single detail.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item24 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-e-class-with-florian-ambrosius-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Florian Ambrosius tests the new E-Class.</h1>
+                      <p>
+                        In this video series, the new E-Class is put through its
+                        paces by Mercedes-Benz Brand Ambassador Florian Am...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item25 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-valet-guys-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Valet Guys.</h1>
+                      <p>
+                        What might Valet Guys do when you trustingly give them
+                        the keys to your car? They surely have a lot of fun.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item26 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-c-class-2021-w206-rapid-fire-questions-to-dirk-fetzer-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The C-Class: Rapid-fire questions to Dirk Fetzer.</h1>
+                      <p>
+                        Dirk Fetzer, Head of Product Management S-/E-/C-Class,
+                        shares his personal views on the new C-Class.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item27 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-my-car-is-my-castle-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>My car is my castle.</h1>
+                      <p>
+                        Those who strive for freedom and adventure need a
+                        reliable partner along the way. Join us on a journey in
+                        t...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item28 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-all-you-need-to-know-about-the-new-mercedes-benz-c-class-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new C-Class – All you need to know.</h1>
+                      <p>
+                        Here’s everything you need to know about the new
+                        C-Class! Learn more about the Sedan, the Wagon and the
+                        pow...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item29 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-benz-the-g-class-built-to-last-2560x1440jpeg.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The G-Class: Built to last. .</h1>
+                      <p>
+                        The G-Class is built to last. Unlike other thing,s as
+                        this ballet dancer is about to find out…
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item30 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-gla-presented-by-sarah-elsser-2560x1440.jpeg"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>The new GLA. Presented by Sarah Elsser.</h1>
+                      <p>
+                        From sporty design to a dashboard packed with high-tech
+                        features: the new GLA ticks all the boxes.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item31 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/00-mercedes-benz-the-new-eqa-2021-h243-presented-by-leonie-von-hase-2560x1440.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>Leonie von Hase tests the new GLB.</h1>
+                      <p>
+                        In this video series the new GLB is put through its
+                        paces by Mercedes-Benz brand ambassador Leonie von
+                        Hase...
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="item item32 hidden toggle2">
+                <div class="content">
+                  <a href=""
+                    ><img
+                      class="d-block w-100"
+                      src="./img/mercedes-maybach-s-class-z223-teaser-image-2560x1440-11-2020.webp"
+                      alt=""
+                    />
+                    <div class="info">
+                      <h1>
+                        The new S-Class with Alicia Keys, Roger Federer & Lewis
+                        Hami...
+                      </h1>
+                      <p>
+                        In the end it’s all about being there for your loved
+                        ones and taking care of what really matters.
+                      </p>
+                    </div></a
+                  >
+                </div>
+              </div>
+
+              <div class="show-more2" id="more-btn2">
+                <button><i class="fa fa-angle-down"></i> Show more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="about">
+      <span class="wow animate__animated animate__fadeInUp"
+        ><i class="fa fa-gas-pump"></i> Kraftstoffverbrauch kombiniert</span
+      >
+      <span class="wow animate__animated animate__fadeInUp"
+        ><i class="fa fa-leaf"></i> CO₂-Emissionen kombiniert
+      </span>
+      <span class="wow animate__animated animate__fadeInUp"
+        ><i class="fa fa-charging-station"></i> Stromverbrauch im kombinierten
+        Testzyklus
+      </span>
+      <p class="wow animate__animated animate__fadeInUp">
+        <sup>1</sup> Die angegebenen Werte wurden nach dem vorgeschriebenen
+        Messverfahren ermittelt. Es handelt sich um die „NEFZ-CO₂-Werte“ i. S.
+        v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die
+        Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der
+        Stromverbrauch wurde auf der Grundlage der VO 692/2008/EG ermittelt.
+        Weitere Informationen zum offiziellen Kraftstoffverbrauch und den
+        offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können
+        dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den
+        Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden,
+        der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand
+        GmbH unter www.dat.de unentgeltlich erhältlich ist. <br /><br />
+        <sup>4</sup> Angaben zu Kraftstoffverbrauch, Stromverbrauch und
+        CO₂-Emissionen sind vorläufig und wurden vom Technischen Dienst für das
+        Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt
+        und in NEFZ-Werte korreliert. Eine EG-Typgenehmigung und
+        Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor.
+        Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich.
+        <br /><br />
+        <sup>6</sup> Stromverbrauch und Reichweite wurden auf der Grundlage der
+        VO 692/2008/EG ermittelt. Stromverbrauch und Reichweite sind abhängig
+        von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen
+        Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen
+        neuer Personenkraftwagen können dem „Leitfaden über den
+        Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller
+        neuen Personenkraftwagenmodelle“ entnommen werden, der an allen
+        Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter
+        www.dat.de unentgeltlich erhältlich ist. <br /><br />
+        <sup>7</sup> Angaben zu Stromverbrauch und Reichweite sind vorläufig und
+        wurden vom Technischen Dienst für das Zertifizierungsverfahren nach
+        Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung und
+        eine Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht
+        vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind
+        möglich. <br /><br />
+        <sup>8</sup> Alle technischen Angaben sind vorläufig und wurden intern
+        nach Maßgabe der jeweils anwendbaren Zertifizierungsmethode ermittelt.
+        Es liegen bislang weder bestätigte Werte vom TÜV noch eine
+        EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen
+        Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten
+        sind möglich. <br /><br />
+        <sup>9</sup> Weitere Informationen zum offiziellen Kraftstoffverbrauch
+        und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen
+        können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen
+        und den Stromverbrauch aller neuen Personenkraftwagenmodelle” entnommen
+        werden, der an allen Verkaufsstellen und bei der Deutschen Automobil
+        Treuhand GmbH unter <a href="#">www.dat.de</a> unentgeltlich erhältlich
+        ist.
+      </p>
+    </section>
+
+    <div class="floating-nav">
+      <div class="product">
+        <a href=""><i class="fa fa-car"></i> <span>Product Page</span></a>
+      </div>
+      <div class="configurator">
+        <a href=""><i class="fa fa-cog"></i><span>Configurator</span></a>
+      </div>
+      <div class="share">
+        <a href=""
+          ><i class="fa fa-share-alt"></i>
+          <span
+            ><a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+            <a href=""><i class="fa fa-envelope"></i></a></span
+        ></a>
+      </div>
+    </div>
+
+    <div class="floating-nav-sm">
+      <div class="product">
+        <i class="fa fa-car"></i>
+        <p>Product Page</p>
+      </div>
+      <div class="configurator">
+        <i class="fa fa-cog"></i>
+        <p>Configurator</p>
+      </div>
+      <div class="share">
+        <i class="fa fa-share-alt"></i>
+        <p>Share</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="contain">
+        <div class="list wow animate__animated animate__fadeInUp">
+          <div class="item">
+            <h1>More topics</h1>
+            <div class="links">
+              <a href="">Innovation</a>
+              <a href="">Design</a>
+              <a href="">Exhibitions</a>
+              <a href="">Museum & History</a>
+              <a href="">Sports</a>
+              <a href="">Driving Events</a>
+              <a href="">Mercedes me Portal</a>
+            </div>
+          </div>
+          <div class="item">
+            <h1>Shopping</h1>
+            <div class="links">
+              <a href="">Dealer Search</a>
+              <a href="">Mercedes-Benz Accessoires</a>
+              <a href="">Mercedes-Benz Collection</a>
+              <a href="">Mercedes me connect Store</a>
+              <a href="">Service & Parts</a>
+              <a href="">Formula 1 Store</a>
+              <a href="">Mercedes-Benz Classic Center</a>
+            </div>
+          </div>
+          <div class="item">
+            <h1>All about cars</h1>
+            <div class="links">
+              <a href="">Model Overview</a>
+              <a href="">Configurator</a>
+              <a href="">Test Drive</a>
+              <a href="">Mercedes-Maybach</a>
+              <a href="">Mercedes me connect</a>
+              <a href="">Mercedes-Benz Ex-Factory Driving Aids</a>
+              <a href="">WLTP</a>
+              <a href="">RDE</a>
+              <a href="">Semiconductors supply situation</a>
+              <a href="">Li-Ion UN38.3</a>
+            </div>
+          </div>
+          <div class="item">
+            <h1>Discover more</h1>
+            <div class="links">
+              <a href="">Daimler AG</a>
+              <a href="">Mercedes-Benz AG</a>
+              <a href="">Newsroom</a>
+              <a href="">Press</a>
+              <a href="">Career</a>
+              <a href="">heycar</a>
+              <a href="">SHARE NOW</a>
+              <a href="">Vulnerability Reporting Policy</a>
+              <a href="">Mercedes-Benz Energy</a>
+              <a href="">Mercedes-Benz Bank</a>
+              <a href="">Fleet Sales</a>
+              <a href="">Mercedes-Benz Global Training</a>
+              <a href="">Customer Centre Sindelfingen</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact wow animate__animated animate__fadeInUp">
+          <h1>Stay informed</h1>
+          <p>
+            Follow us and use the following social media platforms to get in
+            contact with us and to share<br />
+            your passion for the brand, products and services of Mercedes-Benz.
+          </p>
+          <div class="icon">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="image wow animate__animated animate__fadeInUp">
+          <a href=""
+            ><img src="./img/AMG - Driving Performance.png" alt=""
+          /></a>
+          <a href=""><img src="./img/Daimler AG.png" alt="" /></a>
+          <a href=""><img src="./img/Smart.png" alt="" /></a>
+        </div>
+        <div class="bottom wow animate__animated animate__fadeInUp">
+          <p>
+            This is the International website of Mercedes-Benz AG. Visitors from
+            the U.S., please visit our U.S. website
+            <a href="">www.mbusa.com</a>.
+          </p>
+          <div class="policy wow animate__animated animate__fadeInUp">
+            <div class="language">
+              <span><a href="">Deutsch |</a></span>
+              <span style="color: #fff"> English</span>
+            </div>
+            <div class="service">
+              <a href="">Provider</a>
+              <a href="">Legal Notice</a>
+              <a href="">Cookies</a>
+              <a href="">Privacy Statement</a>
+              <a href="">Newsfeed(RSS)</a>
+              <a href="">Contact</a>
+              <a href="">Careers</a>
+              <a href="">Investor Relatins</a>
+              <a href="">Daimler AG</a>
+              <a href="">Top <i class="fa fa-angle-up"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // get button and bind click event handler
+      document
+        .querySelector(".show-more")
+        .addEventListener("click", function () {
+          // get rp-detail element with toggle class
+          // then iterate and toggle class of each element
+          document
+            .querySelectorAll(".item.toggle")
+            .forEach((ele) => ele.classList.toggle("hidden"));
+          document.getElementById("more-btn").style.display = "none";
+        });
+
+      document
+        .querySelector(".show-more1")
+        .addEventListener("click", function () {
+          // get rp-detail element with toggle class
+          // then iterate and toggle class of each element
+          document
+            .querySelectorAll(".item.toggle1")
+            .forEach((ele) => ele.classList.toggle("hidden"));
+          document.getElementById("more-btn1").style.display = "none";
+        });
+
+      document
+        .querySelector(".show-more2")
+        .addEventListener("click", function () {
+          // get rp-detail element with toggle class
+          // then iterate and toggle class of each element
+          document
+            .querySelectorAll(".item.toggle2")
+            .forEach((ele) => ele.classList.toggle("hidden"));
+          document.getElementById("more-btn2").style.display = "none";
+        });
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
